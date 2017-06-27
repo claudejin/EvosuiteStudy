@@ -1,0 +1,517 @@
+test0,Strong Mutation 0: org.apache.commons.math.complex.Complex.abs()D:92 - ReplaceComparisonOperator == -> !=
+test0,Strong Mutation 5: org.apache.commons.math.complex.Complex.abs()D:96 - ReplaceComparisonOperator == -> !=
+test0,Strong Mutation 6: org.apache.commons.math.complex.Complex.abs()D:97 - ReplaceConstant - Infinity -> 0.0
+test0,Strong Mutation 7: org.apache.commons.math.complex.Complex.abs()D:97 - ReplaceConstant - Infinity -> 1.0
+test0,Strong Mutation 8: org.apache.commons.math.complex.Complex.abs()D:97 - ReplaceConstant - Infinity -> -1.0
+test0,Strong Mutation 816: org.apache.commons.math.complex.Complex.createComplex(DD)Lorg/apache/commons/math/complex/Complex;:872 - InsertUnaryOp Negation of real
+test0,Strong Mutation 818: org.apache.commons.math.complex.Complex.createComplex(DD)Lorg/apache/commons/math/complex/Complex;:872 - InsertUnaryOp Negation of imaginary
+test0,Strong Mutation 580: org.apache.commons.math.complex.Complex.log()Lorg/apache/commons/math/complex/Complex;:614 - ReplaceVariable NaN -> INF
+test0,Strong Mutation 581: org.apache.commons.math.complex.Complex.log()Lorg/apache/commons/math/complex/Complex;:614 - ReplaceVariable NaN -> ZERO
+test0,Strong Mutation 582: org.apache.commons.math.complex.Complex.log()Lorg/apache/commons/math/complex/Complex;:614 - ReplaceVariable NaN -> I
+test0,Strong Mutation 583: org.apache.commons.math.complex.Complex.log()Lorg/apache/commons/math/complex/Complex;:614 - ReplaceVariable NaN -> ONE
+test0,Strong Mutation 330: org.apache.commons.math.complex.Complex.getImaginary()D:290 - InsertUnaryOp Negation
+test0,Strong Mutation 331: org.apache.commons.math.complex.Complex.getReal()D:299 - InsertUnaryOp Negation
+test0,Strong Mutation 333: org.apache.commons.math.complex.Complex.isNaN()Z:310 - ReplaceComparisonOperator != -> ==
+test0,Strong Mutation 335: org.apache.commons.math.complex.Complex.isNaN()Z:310 - ReplaceComparisonOperator == -> !=
+test0,Strong Mutation 336: org.apache.commons.math.complex.Complex.isNaN()Z:310 - ReplaceConstant - 1 -> 0
+test0,Strong Mutation 337: org.apache.commons.math.complex.Complex.isNaN()Z:310 - ReplaceConstant - 0 -> 1
+test0,Strong Mutation 338: org.apache.commons.math.complex.Complex.isInfinite()Z:323 - ReplaceComparisonOperator != -> ==
+test0,Strong Mutation 340: org.apache.commons.math.complex.Complex.isInfinite()Z:323 - ReplaceComparisonOperator != -> ==
+test0,Strong Mutation 343: org.apache.commons.math.complex.Complex.isInfinite()Z:323 - ReplaceConstant - 1 -> 0
+test0,Strong Mutation 353: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:356 - ReplaceVariable NaN -> INF
+test0,Strong Mutation 354: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:356 - ReplaceVariable NaN -> ZERO
+test0,Strong Mutation 355: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:356 - ReplaceVariable NaN -> I
+test0,Strong Mutation 356: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:356 - ReplaceVariable NaN -> ONE
+test0,Strong Mutation 616: org.apache.commons.math.complex.Complex.sinh()Lorg/apache/commons/math/complex/Complex;:706 - ReplaceComparisonOperator == -> !=
+test0,Strong Mutation 621: org.apache.commons.math.complex.Complex.sinh()Lorg/apache/commons/math/complex/Complex;:710 - InsertUnaryOp Negation
+test0,Strong Mutation 623: org.apache.commons.math.complex.Complex.sinh()Lorg/apache/commons/math/complex/Complex;:710 - ReplaceArithmeticOperator * -> +
+test0,Strong Mutation 624: org.apache.commons.math.complex.Complex.sinh()Lorg/apache/commons/math/complex/Complex;:710 - ReplaceArithmeticOperator * -> %
+test0,Strong Mutation 625: org.apache.commons.math.complex.Complex.sinh()Lorg/apache/commons/math/complex/Complex;:710 - ReplaceArithmeticOperator * -> -
+test0,Strong Mutation 628: org.apache.commons.math.complex.Complex.sinh()Lorg/apache/commons/math/complex/Complex;:710 - InsertUnaryOp Negation
+test0,Strong Mutation 629: org.apache.commons.math.complex.Complex.sinh()Lorg/apache/commons/math/complex/Complex;:710 - ReplaceArithmeticOperator * -> +
+test0,Strong Mutation 630: org.apache.commons.math.complex.Complex.sinh()Lorg/apache/commons/math/complex/Complex;:710 - ReplaceArithmeticOperator * -> %
+test0,Strong Mutation 631: org.apache.commons.math.complex.Complex.sinh()Lorg/apache/commons/math/complex/Complex;:710 - ReplaceArithmeticOperator * -> -
+test0,Strong Mutation 377: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:361 - ReplaceVariable INF -> ZERO
+test0,Strong Mutation 378: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:361 - ReplaceVariable INF -> I
+test0,Strong Mutation 380: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:361 - ReplaceVariable INF -> ONE
+test0,Strong Mutation 468: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceVariable rhs -> this
+test0,Strong Mutation 470: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceVariable rhs -> ZERO
+test0,Strong Mutation 473: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceVariable rhs -> ONE
+test0,Strong Mutation 475: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceArithmeticOperator - -> %
+test0,Strong Mutation 477: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceArithmeticOperator - -> /
+test0,Strong Mutation 479: org.apache.commons.math.complex.Complex.acos()Lorg/apache/commons/math/complex/Complex;:426 - ReplaceVariable NaN -> INF
+test0,Strong Mutation 480: org.apache.commons.math.complex.Complex.acos()Lorg/apache/commons/math/complex/Complex;:426 - ReplaceVariable NaN -> ZERO
+test0,Strong Mutation 481: org.apache.commons.math.complex.Complex.acos()Lorg/apache/commons/math/complex/Complex;:426 - ReplaceVariable NaN -> I
+test0,Strong Mutation 482: org.apache.commons.math.complex.Complex.acos()Lorg/apache/commons/math/complex/Complex;:426 - ReplaceVariable NaN -> ONE
+test1,Strong Mutation 128: org.apache.commons.math.complex.Complex.divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:199 - ReplaceVariable rhs -> NaN
+test1,Strong Mutation 129: org.apache.commons.math.complex.Complex.divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:199 - ReplaceVariable rhs -> ONE
+test1,Strong Mutation 149: org.apache.commons.math.complex.Complex.divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:204 - ReplaceVariable rhs -> INF
+test1,Strong Mutation 154: org.apache.commons.math.complex.Complex.divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:204 - ReplaceComparisonOperator == -> !=
+test1,Strong Mutation 165: org.apache.commons.math.complex.Complex.divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:208 - ReplaceComparisonOperator >= -> ==
+test1,Strong Mutation 815: org.apache.commons.math.complex.Complex.createComplex(DD)Lorg/apache/commons/math/complex/Complex;:872 - ReplaceVariable real -> imaginary
+test1,Strong Mutation 816: org.apache.commons.math.complex.Complex.createComplex(DD)Lorg/apache/commons/math/complex/Complex;:872 - InsertUnaryOp Negation of real
+test1,Strong Mutation 817: org.apache.commons.math.complex.Complex.createComplex(DD)Lorg/apache/commons/math/complex/Complex;:872 - ReplaceVariable imaginary -> real
+test1,Strong Mutation 818: org.apache.commons.math.complex.Complex.createComplex(DD)Lorg/apache/commons/math/complex/Complex;:872 - InsertUnaryOp Negation of imaginary
+test1,Strong Mutation 330: org.apache.commons.math.complex.Complex.getImaginary()D:290 - InsertUnaryOp Negation
+test1,Strong Mutation 331: org.apache.commons.math.complex.Complex.getReal()D:299 - InsertUnaryOp Negation
+test1,Strong Mutation 333: org.apache.commons.math.complex.Complex.isNaN()Z:310 - ReplaceComparisonOperator != -> ==
+test1,Strong Mutation 335: org.apache.commons.math.complex.Complex.isNaN()Z:310 - ReplaceComparisonOperator == -> !=
+test1,Strong Mutation 337: org.apache.commons.math.complex.Complex.isNaN()Z:310 - ReplaceConstant - 0 -> 1
+test1,Strong Mutation 340: org.apache.commons.math.complex.Complex.isInfinite()Z:323 - ReplaceComparisonOperator != -> ==
+test1,Strong Mutation 342: org.apache.commons.math.complex.Complex.isInfinite()Z:323 - ReplaceComparisonOperator == -> !=
+test1,Strong Mutation 344: org.apache.commons.math.complex.Complex.isInfinite()Z:323 - ReplaceConstant - 0 -> 1
+test1,Strong Mutation 106: org.apache.commons.math.complex.Complex.divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:194 - ReplaceComparisonOperator != -> ==
+test1,Strong Mutation 111: org.apache.commons.math.complex.Complex.divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:194 - ReplaceVariable rhs -> NaN
+test1,Strong Mutation 113: org.apache.commons.math.complex.Complex.divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:194 - ReplaceComparisonOperator == -> !=
+test1,Strong Mutation 118: org.apache.commons.math.complex.Complex.divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:198 - ReplaceVariable rhs -> this
+test1,Strong Mutation 119: org.apache.commons.math.complex.Complex.divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:198 - ReplaceVariable rhs -> INF
+test1,Strong Mutation 120: org.apache.commons.math.complex.Complex.divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:198 - ReplaceVariable rhs -> ZERO
+test1,Strong Mutation 121: org.apache.commons.math.complex.Complex.divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:198 - ReplaceVariable rhs -> I
+test1,Strong Mutation 122: org.apache.commons.math.complex.Complex.divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:198 - ReplaceVariable rhs -> NaN
+test1,Strong Mutation 123: org.apache.commons.math.complex.Complex.divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:198 - ReplaceVariable rhs -> ONE
+test1,Strong Mutation 125: org.apache.commons.math.complex.Complex.divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:199 - ReplaceVariable rhs -> INF
+test1,Strong Mutation 126: org.apache.commons.math.complex.Complex.divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:199 - ReplaceVariable rhs -> ZERO
+test1,Strong Mutation 127: org.apache.commons.math.complex.Complex.divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:199 - ReplaceVariable rhs -> I
+test2,Strong Mutation 0: org.apache.commons.math.complex.Complex.abs()D:92 - ReplaceComparisonOperator == -> !=
+test2,Strong Mutation 5: org.apache.commons.math.complex.Complex.abs()D:96 - ReplaceComparisonOperator == -> !=
+test2,Strong Mutation 12: org.apache.commons.math.complex.Complex.abs()D:100 - ReplaceComparisonOperator >= -> -1
+test2,Strong Mutation 13: org.apache.commons.math.complex.Complex.abs()D:100 - ReplaceComparisonOperator >= -> ==
+test2,Strong Mutation 19: org.apache.commons.math.complex.Complex.abs()D:101 - ReplaceComparisonOperator != -> <
+test2,Strong Mutation 20: org.apache.commons.math.complex.Complex.abs()D:101 - ReplaceComparisonOperator != -> >
+test2,Strong Mutation 24: org.apache.commons.math.complex.Complex.abs()D:104 - ReplaceArithmeticOperator / -> +
+test2,Strong Mutation 25: org.apache.commons.math.complex.Complex.abs()D:104 - ReplaceArithmeticOperator / -> %
+test2,Strong Mutation 26: org.apache.commons.math.complex.Complex.abs()D:104 - ReplaceArithmeticOperator / -> -
+test2,Strong Mutation 27: org.apache.commons.math.complex.Complex.abs()D:104 - ReplaceArithmeticOperator / -> *
+test2,Strong Mutation 29: org.apache.commons.math.complex.Complex.abs()D:105 - ReplaceConstant - 1.0 -> 0.0
+test2,Strong Mutation 30: org.apache.commons.math.complex.Complex.abs()D:105 - ReplaceConstant - 1.0 -> -1.0
+test2,Strong Mutation 31: org.apache.commons.math.complex.Complex.abs()D:105 - ReplaceConstant - 1.0 -> 2.0
+test2,Strong Mutation 32: org.apache.commons.math.complex.Complex.abs()D:105 - InsertUnaryOp Negation of q
+test2,Strong Mutation 33: org.apache.commons.math.complex.Complex.abs()D:105 - InsertUnaryOp Negation of q
+test2,Strong Mutation 34: org.apache.commons.math.complex.Complex.abs()D:105 - ReplaceArithmeticOperator * -> +
+test2,Strong Mutation 35: org.apache.commons.math.complex.Complex.abs()D:105 - ReplaceArithmeticOperator * -> %
+test2,Strong Mutation 36: org.apache.commons.math.complex.Complex.abs()D:105 - ReplaceArithmeticOperator * -> -
+test2,Strong Mutation 37: org.apache.commons.math.complex.Complex.abs()D:105 - ReplaceArithmeticOperator * -> /
+test2,Strong Mutation 38: org.apache.commons.math.complex.Complex.abs()D:105 - ReplaceArithmeticOperator + -> %
+test2,Strong Mutation 39: org.apache.commons.math.complex.Complex.abs()D:105 - ReplaceArithmeticOperator + -> -
+test2,Strong Mutation 40: org.apache.commons.math.complex.Complex.abs()D:105 - ReplaceArithmeticOperator + -> *
+test2,Strong Mutation 41: org.apache.commons.math.complex.Complex.abs()D:105 - ReplaceArithmeticOperator + -> /
+test2,Strong Mutation 42: org.apache.commons.math.complex.Complex.abs()D:105 - ReplaceArithmeticOperator * -> +
+test2,Strong Mutation 43: org.apache.commons.math.complex.Complex.abs()D:105 - ReplaceArithmeticOperator * -> %
+test2,Strong Mutation 44: org.apache.commons.math.complex.Complex.abs()D:105 - ReplaceArithmeticOperator * -> -
+test2,Strong Mutation 45: org.apache.commons.math.complex.Complex.abs()D:105 - ReplaceArithmeticOperator * -> /
+test2,Strong Mutation 50: org.apache.commons.math.complex.Complex.abs()D:107 - ReplaceComparisonOperator != -> <
+test2,Strong Mutation 51: org.apache.commons.math.complex.Complex.abs()D:107 - ReplaceComparisonOperator != -> >
+test2,Strong Mutation 55: org.apache.commons.math.complex.Complex.abs()D:110 - ReplaceArithmeticOperator / -> +
+test2,Strong Mutation 56: org.apache.commons.math.complex.Complex.abs()D:110 - ReplaceArithmeticOperator / -> %
+test2,Strong Mutation 57: org.apache.commons.math.complex.Complex.abs()D:110 - ReplaceArithmeticOperator / -> -
+test2,Strong Mutation 58: org.apache.commons.math.complex.Complex.abs()D:110 - ReplaceArithmeticOperator / -> *
+test2,Strong Mutation 60: org.apache.commons.math.complex.Complex.abs()D:111 - ReplaceConstant - 1.0 -> 0.0
+test2,Strong Mutation 61: org.apache.commons.math.complex.Complex.abs()D:111 - ReplaceConstant - 1.0 -> -1.0
+test2,Strong Mutation 62: org.apache.commons.math.complex.Complex.abs()D:111 - ReplaceConstant - 1.0 -> 2.0
+test2,Strong Mutation 63: org.apache.commons.math.complex.Complex.abs()D:111 - InsertUnaryOp Negation of q
+test2,Strong Mutation 64: org.apache.commons.math.complex.Complex.abs()D:111 - InsertUnaryOp Negation of q
+test2,Strong Mutation 65: org.apache.commons.math.complex.Complex.abs()D:111 - ReplaceArithmeticOperator * -> +
+test2,Strong Mutation 66: org.apache.commons.math.complex.Complex.abs()D:111 - ReplaceArithmeticOperator * -> %
+test2,Strong Mutation 67: org.apache.commons.math.complex.Complex.abs()D:111 - ReplaceArithmeticOperator * -> -
+test2,Strong Mutation 68: org.apache.commons.math.complex.Complex.abs()D:111 - ReplaceArithmeticOperator * -> /
+test2,Strong Mutation 69: org.apache.commons.math.complex.Complex.abs()D:111 - ReplaceArithmeticOperator + -> %
+test2,Strong Mutation 70: org.apache.commons.math.complex.Complex.abs()D:111 - ReplaceArithmeticOperator + -> -
+test2,Strong Mutation 71: org.apache.commons.math.complex.Complex.abs()D:111 - ReplaceArithmeticOperator + -> *
+test2,Strong Mutation 72: org.apache.commons.math.complex.Complex.abs()D:111 - ReplaceArithmeticOperator + -> /
+test2,Strong Mutation 73: org.apache.commons.math.complex.Complex.abs()D:111 - ReplaceArithmeticOperator * -> +
+test2,Strong Mutation 74: org.apache.commons.math.complex.Complex.abs()D:111 - ReplaceArithmeticOperator * -> %
+test2,Strong Mutation 75: org.apache.commons.math.complex.Complex.abs()D:111 - ReplaceArithmeticOperator * -> -
+test2,Strong Mutation 76: org.apache.commons.math.complex.Complex.abs()D:111 - ReplaceArithmeticOperator * -> /
+test2,Strong Mutation 77: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - InsertUnaryOp Negation
+test2,Strong Mutation 78: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - ReplaceVariable rhs -> this
+test2,Strong Mutation 79: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - ReplaceVariable rhs -> INF
+test2,Strong Mutation 80: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - ReplaceVariable rhs -> ZERO
+test2,Strong Mutation 81: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - ReplaceVariable rhs -> I
+test2,Strong Mutation 82: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - ReplaceVariable rhs -> NaN
+test2,Strong Mutation 83: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - ReplaceVariable rhs -> ONE
+test2,Strong Mutation 84: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - ReplaceArithmeticOperator + -> %
+test2,Strong Mutation 85: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - ReplaceArithmeticOperator + -> -
+test2,Strong Mutation 86: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - ReplaceArithmeticOperator + -> *
+test2,Strong Mutation 87: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - ReplaceArithmeticOperator + -> /
+test2,Strong Mutation 88: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - InsertUnaryOp Negation
+test2,Strong Mutation 89: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - ReplaceVariable rhs -> this
+test2,Strong Mutation 90: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - ReplaceVariable rhs -> INF
+test2,Strong Mutation 91: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - ReplaceVariable rhs -> ZERO
+test2,Strong Mutation 92: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - ReplaceVariable rhs -> I
+test2,Strong Mutation 93: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - ReplaceVariable rhs -> NaN
+test2,Strong Mutation 94: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - ReplaceVariable rhs -> ONE
+test2,Strong Mutation 95: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - ReplaceArithmeticOperator + -> %
+test2,Strong Mutation 96: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - ReplaceArithmeticOperator + -> -
+test2,Strong Mutation 97: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - ReplaceArithmeticOperator + -> *
+test2,Strong Mutation 98: org.apache.commons.math.complex.Complex.add(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:133 - ReplaceArithmeticOperator + -> /
+test2,Strong Mutation 330: org.apache.commons.math.complex.Complex.getImaginary()D:290 - InsertUnaryOp Negation
+test2,Strong Mutation 331: org.apache.commons.math.complex.Complex.getReal()D:299 - InsertUnaryOp Negation
+test2,Strong Mutation 333: org.apache.commons.math.complex.Complex.isNaN()Z:310 - ReplaceComparisonOperator != -> ==
+test2,Strong Mutation 335: org.apache.commons.math.complex.Complex.isNaN()Z:310 - ReplaceComparisonOperator == -> !=
+test2,Strong Mutation 337: org.apache.commons.math.complex.Complex.isNaN()Z:310 - ReplaceConstant - 0 -> 1
+test2,Strong Mutation 338: org.apache.commons.math.complex.Complex.isInfinite()Z:323 - ReplaceComparisonOperator != -> ==
+test2,Strong Mutation 340: org.apache.commons.math.complex.Complex.isInfinite()Z:323 - ReplaceComparisonOperator != -> ==
+test2,Strong Mutation 342: org.apache.commons.math.complex.Complex.isInfinite()Z:323 - ReplaceComparisonOperator == -> !=
+test2,Strong Mutation 344: org.apache.commons.math.complex.Complex.isInfinite()Z:323 - ReplaceConstant - 0 -> 1
+test2,Strong Mutation 345: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:355 - ReplaceComparisonOperator != -> ==
+test2,Strong Mutation 350: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:355 - ReplaceVariable rhs -> NaN
+test2,Strong Mutation 352: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:355 - ReplaceComparisonOperator == -> !=
+test2,Strong Mutation 358: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:358 - ReplaceComparisonOperator != -> ==
+test2,Strong Mutation 360: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:358 - ReplaceComparisonOperator != -> ==
+test2,Strong Mutation 362: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:358 - ReplaceVariable rhs -> INF
+test2,Strong Mutation 368: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:358 - ReplaceComparisonOperator != -> ==
+test2,Strong Mutation 370: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:358 - ReplaceVariable rhs -> INF
+test2,Strong Mutation 376: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:358 - ReplaceComparisonOperator == -> !=
+test2,Strong Mutation 381: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - InsertUnaryOp Negation
+test2,Strong Mutation 382: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> this
+test2,Strong Mutation 383: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> INF
+test2,Strong Mutation 384: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> ZERO
+test2,Strong Mutation 385: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> I
+test2,Strong Mutation 386: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> NaN
+test2,Strong Mutation 387: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> ONE
+test2,Strong Mutation 388: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - InsertUnaryOp Negation
+test2,Strong Mutation 389: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator * -> +
+test2,Strong Mutation 390: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator * -> %
+test2,Strong Mutation 391: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator * -> -
+test2,Strong Mutation 392: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator * -> /
+test2,Strong Mutation 393: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - InsertUnaryOp Negation
+test2,Strong Mutation 394: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> this
+test2,Strong Mutation 395: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> INF
+test2,Strong Mutation 396: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> ZERO
+test2,Strong Mutation 397: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> I
+test2,Strong Mutation 398: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> NaN
+test2,Strong Mutation 399: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> ONE
+test2,Strong Mutation 400: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - InsertUnaryOp Negation
+test2,Strong Mutation 401: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator * -> +
+test2,Strong Mutation 402: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator * -> %
+test2,Strong Mutation 403: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator * -> -
+test2,Strong Mutation 404: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator * -> /
+test2,Strong Mutation 405: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator - -> +
+test2,Strong Mutation 406: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator - -> %
+test2,Strong Mutation 407: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator - -> *
+test2,Strong Mutation 408: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator - -> /
+test2,Strong Mutation 409: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - InsertUnaryOp Negation
+test2,Strong Mutation 410: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> this
+test2,Strong Mutation 411: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> INF
+test2,Strong Mutation 412: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> ZERO
+test2,Strong Mutation 413: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> I
+test2,Strong Mutation 414: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> NaN
+test2,Strong Mutation 415: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> ONE
+test2,Strong Mutation 416: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - InsertUnaryOp Negation
+test2,Strong Mutation 417: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator * -> +
+test2,Strong Mutation 418: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator * -> %
+test2,Strong Mutation 419: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator * -> -
+test2,Strong Mutation 420: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator * -> /
+test2,Strong Mutation 421: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - InsertUnaryOp Negation
+test2,Strong Mutation 422: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> this
+test2,Strong Mutation 423: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> INF
+test2,Strong Mutation 424: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> ZERO
+test2,Strong Mutation 425: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> I
+test2,Strong Mutation 426: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> NaN
+test2,Strong Mutation 427: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceVariable rhs -> ONE
+test2,Strong Mutation 428: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - InsertUnaryOp Negation
+test2,Strong Mutation 429: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator * -> +
+test2,Strong Mutation 430: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator * -> %
+test2,Strong Mutation 431: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator * -> -
+test2,Strong Mutation 432: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator * -> /
+test2,Strong Mutation 433: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator + -> %
+test2,Strong Mutation 434: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator + -> -
+test2,Strong Mutation 435: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator + -> *
+test2,Strong Mutation 436: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:363 - ReplaceArithmeticOperator + -> /
+test2,Strong Mutation 437: org.apache.commons.math.complex.Complex.negate()Lorg/apache/commons/math/complex/Complex;:376 - ReplaceComparisonOperator == -> !=
+test2,Strong Mutation 443: org.apache.commons.math.complex.Complex.negate()Lorg/apache/commons/math/complex/Complex;:380 - InsertUnaryOp Negation
+test2,Strong Mutation 444: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:402 - ReplaceComparisonOperator != -> ==
+test2,Strong Mutation 449: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:402 - ReplaceVariable rhs -> NaN
+test2,Strong Mutation 451: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:402 - ReplaceComparisonOperator == -> !=
+test2,Strong Mutation 456: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - InsertUnaryOp Negation
+test2,Strong Mutation 457: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceVariable rhs -> this
+test2,Strong Mutation 458: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceVariable rhs -> INF
+test2,Strong Mutation 459: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceVariable rhs -> ZERO
+test2,Strong Mutation 460: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceVariable rhs -> I
+test2,Strong Mutation 461: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceVariable rhs -> NaN
+test2,Strong Mutation 462: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceVariable rhs -> ONE
+test2,Strong Mutation 463: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceArithmeticOperator - -> +
+test2,Strong Mutation 464: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceArithmeticOperator - -> %
+test2,Strong Mutation 465: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceArithmeticOperator - -> *
+test2,Strong Mutation 466: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceArithmeticOperator - -> /
+test2,Strong Mutation 468: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceVariable rhs -> this
+test2,Strong Mutation 469: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceVariable rhs -> INF
+test2,Strong Mutation 470: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceVariable rhs -> ZERO
+test2,Strong Mutation 471: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceVariable rhs -> I
+test2,Strong Mutation 472: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceVariable rhs -> NaN
+test2,Strong Mutation 473: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceVariable rhs -> ONE
+test2,Strong Mutation 474: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceArithmeticOperator - -> +
+test2,Strong Mutation 475: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceArithmeticOperator - -> %
+test2,Strong Mutation 476: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceArithmeticOperator - -> *
+test2,Strong Mutation 477: org.apache.commons.math.complex.Complex.subtract(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:406 - ReplaceArithmeticOperator - -> /
+test2,Strong Mutation 478: org.apache.commons.math.complex.Complex.acos()Lorg/apache/commons/math/complex/Complex;:425 - ReplaceComparisonOperator == -> !=
+test2,Strong Mutation 483: org.apache.commons.math.complex.Complex.acos()Lorg/apache/commons/math/complex/Complex;:429 - ReplaceVariable I -> INF
+test2,Strong Mutation 484: org.apache.commons.math.complex.Complex.acos()Lorg/apache/commons/math/complex/Complex;:429 - ReplaceVariable I -> ZERO
+test2,Strong Mutation 485: org.apache.commons.math.complex.Complex.acos()Lorg/apache/commons/math/complex/Complex;:429 - ReplaceVariable I -> NaN
+test2,Strong Mutation 486: org.apache.commons.math.complex.Complex.acos()Lorg/apache/commons/math/complex/Complex;:429 - ReplaceVariable I -> ONE
+test2,Strong Mutation 487: org.apache.commons.math.complex.Complex.acos()Lorg/apache/commons/math/complex/Complex;:429 - ReplaceVariable I -> INF
+test2,Strong Mutation 488: org.apache.commons.math.complex.Complex.acos()Lorg/apache/commons/math/complex/Complex;:429 - ReplaceVariable I -> ZERO
+test2,Strong Mutation 489: org.apache.commons.math.complex.Complex.acos()Lorg/apache/commons/math/complex/Complex;:429 - ReplaceVariable I -> NaN
+test2,Strong Mutation 490: org.apache.commons.math.complex.Complex.acos()Lorg/apache/commons/math/complex/Complex;:429 - ReplaceVariable I -> ONE
+test2,Strong Mutation 491: org.apache.commons.math.complex.Complex.asin()Lorg/apache/commons/math/complex/Complex;:448 - ReplaceComparisonOperator == -> !=
+test2,Strong Mutation 496: org.apache.commons.math.complex.Complex.asin()Lorg/apache/commons/math/complex/Complex;:452 - ReplaceVariable I -> INF
+test2,Strong Mutation 497: org.apache.commons.math.complex.Complex.asin()Lorg/apache/commons/math/complex/Complex;:452 - ReplaceVariable I -> ZERO
+test2,Strong Mutation 498: org.apache.commons.math.complex.Complex.asin()Lorg/apache/commons/math/complex/Complex;:452 - ReplaceVariable I -> NaN
+test2,Strong Mutation 499: org.apache.commons.math.complex.Complex.asin()Lorg/apache/commons/math/complex/Complex;:452 - ReplaceVariable I -> ONE
+test2,Strong Mutation 500: org.apache.commons.math.complex.Complex.asin()Lorg/apache/commons/math/complex/Complex;:452 - ReplaceVariable I -> INF
+test2,Strong Mutation 501: org.apache.commons.math.complex.Complex.asin()Lorg/apache/commons/math/complex/Complex;:452 - ReplaceVariable I -> ZERO
+test2,Strong Mutation 502: org.apache.commons.math.complex.Complex.asin()Lorg/apache/commons/math/complex/Complex;:452 - ReplaceVariable I -> NaN
+test2,Strong Mutation 503: org.apache.commons.math.complex.Complex.asin()Lorg/apache/commons/math/complex/Complex;:452 - ReplaceVariable I -> ONE
+test2,Strong Mutation 527: org.apache.commons.math.complex.Complex.cos()Lorg/apache/commons/math/complex/Complex;:506 - ReplaceComparisonOperator == -> !=
+test2,Strong Mutation 534: org.apache.commons.math.complex.Complex.cos()Lorg/apache/commons/math/complex/Complex;:510 - ReplaceArithmeticOperator * -> +
+test2,Strong Mutation 535: org.apache.commons.math.complex.Complex.cos()Lorg/apache/commons/math/complex/Complex;:510 - ReplaceArithmeticOperator * -> %
+test2,Strong Mutation 536: org.apache.commons.math.complex.Complex.cos()Lorg/apache/commons/math/complex/Complex;:510 - ReplaceArithmeticOperator * -> -
+test2,Strong Mutation 537: org.apache.commons.math.complex.Complex.cos()Lorg/apache/commons/math/complex/Complex;:510 - ReplaceArithmeticOperator * -> /
+test2,Strong Mutation 538: org.apache.commons.math.complex.Complex.cos()Lorg/apache/commons/math/complex/Complex;:510 - InsertUnaryOp Negation
+test2,Strong Mutation 539: org.apache.commons.math.complex.Complex.cos()Lorg/apache/commons/math/complex/Complex;:510 - InsertUnaryOp Negation
+test2,Strong Mutation 540: org.apache.commons.math.complex.Complex.cos()Lorg/apache/commons/math/complex/Complex;:510 - ReplaceArithmeticOperator * -> +
+test2,Strong Mutation 541: org.apache.commons.math.complex.Complex.cos()Lorg/apache/commons/math/complex/Complex;:510 - ReplaceArithmeticOperator * -> %
+test2,Strong Mutation 542: org.apache.commons.math.complex.Complex.cos()Lorg/apache/commons/math/complex/Complex;:510 - ReplaceArithmeticOperator * -> -
+test2,Strong Mutation 543: org.apache.commons.math.complex.Complex.cos()Lorg/apache/commons/math/complex/Complex;:510 - ReplaceArithmeticOperator * -> /
+test2,Strong Mutation 561: org.apache.commons.math.complex.Complex.exp()Lorg/apache/commons/math/complex/Complex;:575 - ReplaceComparisonOperator == -> !=
+test2,Strong Mutation 566: org.apache.commons.math.complex.Complex.exp()Lorg/apache/commons/math/complex/Complex;:579 - InsertUnaryOp Negation
+test2,Strong Mutation 567: org.apache.commons.math.complex.Complex.exp()Lorg/apache/commons/math/complex/Complex;:580 - InsertUnaryOp Negation of expReal
+test2,Strong Mutation 569: org.apache.commons.math.complex.Complex.exp()Lorg/apache/commons/math/complex/Complex;:580 - ReplaceArithmeticOperator * -> +
+test2,Strong Mutation 570: org.apache.commons.math.complex.Complex.exp()Lorg/apache/commons/math/complex/Complex;:580 - ReplaceArithmeticOperator * -> %
+test2,Strong Mutation 571: org.apache.commons.math.complex.Complex.exp()Lorg/apache/commons/math/complex/Complex;:580 - ReplaceArithmeticOperator * -> -
+test2,Strong Mutation 572: org.apache.commons.math.complex.Complex.exp()Lorg/apache/commons/math/complex/Complex;:580 - ReplaceArithmeticOperator * -> /
+test2,Strong Mutation 573: org.apache.commons.math.complex.Complex.exp()Lorg/apache/commons/math/complex/Complex;:580 - InsertUnaryOp Negation of expReal
+test2,Strong Mutation 574: org.apache.commons.math.complex.Complex.exp()Lorg/apache/commons/math/complex/Complex;:580 - InsertUnaryOp Negation
+test2,Strong Mutation 575: org.apache.commons.math.complex.Complex.exp()Lorg/apache/commons/math/complex/Complex;:580 - ReplaceArithmeticOperator * -> +
+test2,Strong Mutation 576: org.apache.commons.math.complex.Complex.exp()Lorg/apache/commons/math/complex/Complex;:580 - ReplaceArithmeticOperator * -> %
+test2,Strong Mutation 577: org.apache.commons.math.complex.Complex.exp()Lorg/apache/commons/math/complex/Complex;:580 - ReplaceArithmeticOperator * -> -
+test2,Strong Mutation 578: org.apache.commons.math.complex.Complex.exp()Lorg/apache/commons/math/complex/Complex;:580 - ReplaceArithmeticOperator * -> /
+test2,Strong Mutation 579: org.apache.commons.math.complex.Complex.log()Lorg/apache/commons/math/complex/Complex;:613 - ReplaceComparisonOperator == -> !=
+test2,Strong Mutation 584: org.apache.commons.math.complex.Complex.log()Lorg/apache/commons/math/complex/Complex;:617 - InsertUnaryOp Negation
+test2,Strong Mutation 585: org.apache.commons.math.complex.Complex.log()Lorg/apache/commons/math/complex/Complex;:617 - InsertUnaryOp Negation
+test2,Strong Mutation 593: org.apache.commons.math.complex.Complex.pow(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:642 - ReplaceVariable x -> this
+test2,Strong Mutation 594: org.apache.commons.math.complex.Complex.pow(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:642 - ReplaceVariable x -> INF
+test2,Strong Mutation 595: org.apache.commons.math.complex.Complex.pow(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:642 - ReplaceVariable x -> ZERO
+test2,Strong Mutation 596: org.apache.commons.math.complex.Complex.pow(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:642 - ReplaceVariable x -> I
+test2,Strong Mutation 597: org.apache.commons.math.complex.Complex.pow(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:642 - ReplaceVariable x -> NaN
+test2,Strong Mutation 598: org.apache.commons.math.complex.Complex.pow(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:642 - ReplaceVariable x -> ONE
+test2,Strong Mutation 599: org.apache.commons.math.complex.Complex.sin()Lorg/apache/commons/math/complex/Complex;:672 - ReplaceComparisonOperator == -> !=
+test2,Strong Mutation 606: org.apache.commons.math.complex.Complex.sin()Lorg/apache/commons/math/complex/Complex;:676 - ReplaceArithmeticOperator * -> +
+test2,Strong Mutation 607: org.apache.commons.math.complex.Complex.sin()Lorg/apache/commons/math/complex/Complex;:676 - ReplaceArithmeticOperator * -> %
+test2,Strong Mutation 608: org.apache.commons.math.complex.Complex.sin()Lorg/apache/commons/math/complex/Complex;:676 - ReplaceArithmeticOperator * -> -
+test2,Strong Mutation 609: org.apache.commons.math.complex.Complex.sin()Lorg/apache/commons/math/complex/Complex;:676 - ReplaceArithmeticOperator * -> /
+test2,Strong Mutation 611: org.apache.commons.math.complex.Complex.sin()Lorg/apache/commons/math/complex/Complex;:676 - InsertUnaryOp Negation
+test2,Strong Mutation 613: org.apache.commons.math.complex.Complex.sin()Lorg/apache/commons/math/complex/Complex;:676 - ReplaceArithmeticOperator * -> %
+test2,Strong Mutation 614: org.apache.commons.math.complex.Complex.sin()Lorg/apache/commons/math/complex/Complex;:676 - ReplaceArithmeticOperator * -> -
+test2,Strong Mutation 615: org.apache.commons.math.complex.Complex.sin()Lorg/apache/commons/math/complex/Complex;:676 - ReplaceArithmeticOperator * -> /
+test2,Strong Mutation 633: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:748 - ReplaceComparisonOperator == -> !=
+test2,Strong Mutation 643: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:752 - ReplaceComparisonOperator != -> >
+test2,Strong Mutation 655: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:756 - ReplaceArithmeticOperator + -> %
+test2,Strong Mutation 656: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:756 - ReplaceArithmeticOperator + -> -
+test2,Strong Mutation 657: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:756 - ReplaceArithmeticOperator + -> *
+test2,Strong Mutation 658: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:756 - ReplaceArithmeticOperator + -> /
+test2,Strong Mutation 659: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:756 - ReplaceConstant - 2.0 -> 0.0
+test2,Strong Mutation 660: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:756 - ReplaceConstant - 2.0 -> 1.0
+test2,Strong Mutation 661: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:756 - ReplaceConstant - 2.0 -> -1.0
+test2,Strong Mutation 662: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:756 - ReplaceConstant - 2.0 -> 3.0
+test2,Strong Mutation 663: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:756 - ReplaceArithmeticOperator / -> +
+test2,Strong Mutation 664: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:756 - ReplaceArithmeticOperator / -> %
+test2,Strong Mutation 665: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:756 - ReplaceArithmeticOperator / -> -
+test2,Strong Mutation 666: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:756 - ReplaceArithmeticOperator / -> *
+test2,Strong Mutation 667: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:757 - InsertUnaryOp Negation
+test2,Strong Mutation 668: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:757 - ReplaceConstant - 0.0 -> 1.0
+test2,Strong Mutation 670: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:757 - ReplaceComparisonOperator < -> -2
+test2,Strong Mutation 671: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:757 - ReplaceComparisonOperator < -> !=
+test2,Strong Mutation 673: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:758 - InsertUnaryOp Negation of t
+test2,Strong Mutation 674: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:758 - InsertUnaryOp Negation
+test2,Strong Mutation 675: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:758 - ReplaceConstant - 2.0 -> 0.0
+test2,Strong Mutation 676: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:758 - ReplaceConstant - 2.0 -> 1.0
+test2,Strong Mutation 677: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:758 - ReplaceConstant - 2.0 -> -1.0
+test2,Strong Mutation 678: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:758 - ReplaceConstant - 2.0 -> 3.0
+test2,Strong Mutation 679: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:758 - InsertUnaryOp Negation of t
+test2,Strong Mutation 680: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:758 - ReplaceArithmeticOperator * -> +
+test2,Strong Mutation 681: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:758 - ReplaceArithmeticOperator * -> %
+test2,Strong Mutation 682: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:758 - ReplaceArithmeticOperator * -> -
+test2,Strong Mutation 683: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:758 - ReplaceArithmeticOperator * -> /
+test2,Strong Mutation 684: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:758 - ReplaceArithmeticOperator / -> +
+test2,Strong Mutation 685: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:758 - ReplaceArithmeticOperator / -> %
+test2,Strong Mutation 686: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:758 - ReplaceArithmeticOperator / -> -
+test2,Strong Mutation 687: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:758 - ReplaceArithmeticOperator / -> *
+test2,Strong Mutation 689: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:760 - ReplaceConstant - 2.0 -> 0.0
+test2,Strong Mutation 698: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:760 - ReplaceArithmeticOperator / -> +
+test2,Strong Mutation 700: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:760 - ReplaceArithmeticOperator / -> -
+test2,Strong Mutation 703: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:760 - InsertUnaryOp Negation of t
+test2,Strong Mutation 704: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:760 - ReplaceArithmeticOperator * -> +
+test2,Strong Mutation 705: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:760 - ReplaceArithmeticOperator * -> %
+test2,Strong Mutation 706: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:760 - ReplaceArithmeticOperator * -> -
+test2,Strong Mutation 707: org.apache.commons.math.complex.Complex.sqrt()Lorg/apache/commons/math/complex/Complex;:760 - ReplaceArithmeticOperator * -> /
+test2,Strong Mutation 708: org.apache.commons.math.complex.Complex.sqrt1z()Lorg/apache/commons/math/complex/Complex;:784 - ReplaceConstant - 1.0 -> 0.0
+test2,Strong Mutation 709: org.apache.commons.math.complex.Complex.sqrt1z()Lorg/apache/commons/math/complex/Complex;:784 - ReplaceConstant - 1.0 -> -1.0
+test2,Strong Mutation 710: org.apache.commons.math.complex.Complex.sqrt1z()Lorg/apache/commons/math/complex/Complex;:784 - ReplaceConstant - 1.0 -> 2.0
+test2,Strong Mutation 711: org.apache.commons.math.complex.Complex.sqrt1z()Lorg/apache/commons/math/complex/Complex;:784 - ReplaceConstant - 0.0 -> 1.0
+test2,Strong Mutation 712: org.apache.commons.math.complex.Complex.sqrt1z()Lorg/apache/commons/math/complex/Complex;:784 - ReplaceConstant - 0.0 -> -1.0
+test2,Strong Mutation 713: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:814 - ReplaceComparisonOperator == -> !=
+test2,Strong Mutation 718: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:818 - ReplaceConstant - 2.0 -> 0.0
+test2,Strong Mutation 719: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:818 - ReplaceConstant - 2.0 -> 1.0
+test2,Strong Mutation 720: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:818 - ReplaceConstant - 2.0 -> -1.0
+test2,Strong Mutation 721: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:818 - ReplaceConstant - 2.0 -> 3.0
+test2,Strong Mutation 722: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:818 - InsertUnaryOp Negation
+test2,Strong Mutation 723: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:818 - ReplaceArithmeticOperator * -> +
+test2,Strong Mutation 724: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:818 - ReplaceArithmeticOperator * -> %
+test2,Strong Mutation 725: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:818 - ReplaceArithmeticOperator * -> -
+test2,Strong Mutation 726: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:818 - ReplaceArithmeticOperator * -> /
+test2,Strong Mutation 727: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:819 - ReplaceConstant - 2.0 -> 0.0
+test2,Strong Mutation 728: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:819 - ReplaceConstant - 2.0 -> 1.0
+test2,Strong Mutation 729: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:819 - ReplaceConstant - 2.0 -> -1.0
+test2,Strong Mutation 730: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:819 - ReplaceConstant - 2.0 -> 3.0
+test2,Strong Mutation 731: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:819 - InsertUnaryOp Negation
+test2,Strong Mutation 732: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:819 - ReplaceArithmeticOperator * -> +
+test2,Strong Mutation 733: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:819 - ReplaceArithmeticOperator * -> %
+test2,Strong Mutation 734: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:819 - ReplaceArithmeticOperator * -> -
+test2,Strong Mutation 735: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:819 - ReplaceArithmeticOperator * -> /
+test2,Strong Mutation 736: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:820 - ReplaceVariable real2 -> imaginary2
+test2,Strong Mutation 738: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:820 - ReplaceVariable imaginary2 -> real2
+test2,Strong Mutation 740: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:820 - ReplaceArithmeticOperator + -> %
+test2,Strong Mutation 741: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:820 - ReplaceArithmeticOperator + -> -
+test2,Strong Mutation 742: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:820 - ReplaceArithmeticOperator + -> *
+test2,Strong Mutation 743: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:820 - ReplaceArithmeticOperator + -> /
+test2,Strong Mutation 744: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:822 - ReplaceVariable real2 -> d
+test2,Strong Mutation 745: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:822 - ReplaceVariable real2 -> imaginary2
+test2,Strong Mutation 746: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:822 - InsertUnaryOp Negation of real2
+test2,Strong Mutation 747: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:822 - ReplaceVariable d -> real2
+test2,Strong Mutation 748: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:822 - ReplaceVariable d -> imaginary2
+test2,Strong Mutation 749: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:822 - InsertUnaryOp Negation of d
+test2,Strong Mutation 750: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:822 - ReplaceArithmeticOperator / -> +
+test2,Strong Mutation 751: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:822 - ReplaceArithmeticOperator / -> %
+test2,Strong Mutation 752: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:822 - ReplaceArithmeticOperator / -> -
+test2,Strong Mutation 753: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:822 - ReplaceArithmeticOperator / -> *
+test2,Strong Mutation 754: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:822 - ReplaceVariable imaginary2 -> d
+test2,Strong Mutation 755: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:822 - ReplaceVariable imaginary2 -> real2
+test2,Strong Mutation 756: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:822 - InsertUnaryOp Negation of imaginary2
+test2,Strong Mutation 757: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:822 - ReplaceVariable d -> real2
+test2,Strong Mutation 758: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:822 - ReplaceVariable d -> imaginary2
+test2,Strong Mutation 759: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:822 - InsertUnaryOp Negation of d
+test2,Strong Mutation 760: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:822 - ReplaceArithmeticOperator / -> +
+test2,Strong Mutation 761: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:822 - ReplaceArithmeticOperator / -> %
+test2,Strong Mutation 762: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:822 - ReplaceArithmeticOperator / -> -
+test2,Strong Mutation 763: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:822 - ReplaceArithmeticOperator / -> *
+test2,Strong Mutation 764: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:852 - ReplaceComparisonOperator == -> !=
+test2,Strong Mutation 769: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:856 - ReplaceConstant - 2.0 -> 0.0
+test2,Strong Mutation 770: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:856 - ReplaceConstant - 2.0 -> 1.0
+test2,Strong Mutation 771: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:856 - ReplaceConstant - 2.0 -> -1.0
+test2,Strong Mutation 772: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:856 - ReplaceConstant - 2.0 -> 3.0
+test2,Strong Mutation 773: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:856 - InsertUnaryOp Negation
+test2,Strong Mutation 774: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:856 - ReplaceArithmeticOperator * -> +
+test2,Strong Mutation 775: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:856 - ReplaceArithmeticOperator * -> %
+test2,Strong Mutation 776: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:856 - ReplaceArithmeticOperator * -> -
+test2,Strong Mutation 777: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:856 - ReplaceArithmeticOperator * -> /
+test2,Strong Mutation 778: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:857 - ReplaceConstant - 2.0 -> 0.0
+test2,Strong Mutation 779: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:857 - ReplaceConstant - 2.0 -> 1.0
+test2,Strong Mutation 780: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:857 - ReplaceConstant - 2.0 -> -1.0
+test2,Strong Mutation 781: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:857 - ReplaceConstant - 2.0 -> 3.0
+test2,Strong Mutation 782: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:857 - InsertUnaryOp Negation
+test2,Strong Mutation 783: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:857 - ReplaceArithmeticOperator * -> +
+test2,Strong Mutation 784: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:857 - ReplaceArithmeticOperator * -> %
+test2,Strong Mutation 785: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:857 - ReplaceArithmeticOperator * -> -
+test2,Strong Mutation 786: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:857 - ReplaceArithmeticOperator * -> /
+test2,Strong Mutation 787: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:858 - ReplaceVariable real2 -> imaginary2
+test2,Strong Mutation 789: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:858 - ReplaceVariable imaginary2 -> real2
+test2,Strong Mutation 792: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:858 - ReplaceArithmeticOperator + -> -
+test2,Strong Mutation 793: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:858 - ReplaceArithmeticOperator + -> *
+test2,Strong Mutation 794: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:858 - ReplaceArithmeticOperator + -> /
+test2,Strong Mutation 795: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:860 - ReplaceVariable real2 -> d
+test2,Strong Mutation 796: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:860 - ReplaceVariable real2 -> imaginary2
+test2,Strong Mutation 797: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:860 - InsertUnaryOp Negation of real2
+test2,Strong Mutation 798: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:860 - ReplaceVariable d -> real2
+test2,Strong Mutation 799: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:860 - ReplaceVariable d -> imaginary2
+test2,Strong Mutation 800: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:860 - InsertUnaryOp Negation of d
+test2,Strong Mutation 801: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:860 - ReplaceArithmeticOperator / -> +
+test2,Strong Mutation 802: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:860 - ReplaceArithmeticOperator / -> %
+test2,Strong Mutation 803: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:860 - ReplaceArithmeticOperator / -> -
+test2,Strong Mutation 804: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:860 - ReplaceArithmeticOperator / -> *
+test2,Strong Mutation 805: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:860 - ReplaceVariable imaginary2 -> d
+test2,Strong Mutation 806: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:860 - ReplaceVariable imaginary2 -> real2
+test2,Strong Mutation 807: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:860 - InsertUnaryOp Negation of imaginary2
+test2,Strong Mutation 808: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:860 - ReplaceVariable d -> real2
+test2,Strong Mutation 809: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:860 - ReplaceVariable d -> imaginary2
+test2,Strong Mutation 810: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:860 - InsertUnaryOp Negation of d
+test2,Strong Mutation 811: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:860 - ReplaceArithmeticOperator / -> +
+test2,Strong Mutation 812: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:860 - ReplaceArithmeticOperator / -> %
+test2,Strong Mutation 813: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:860 - ReplaceArithmeticOperator / -> -
+test2,Strong Mutation 814: org.apache.commons.math.complex.Complex.tanh()Lorg/apache/commons/math/complex/Complex;:860 - ReplaceArithmeticOperator / -> *
+test2,Strong Mutation 815: org.apache.commons.math.complex.Complex.createComplex(DD)Lorg/apache/commons/math/complex/Complex;:872 - ReplaceVariable real -> imaginary
+test2,Strong Mutation 816: org.apache.commons.math.complex.Complex.createComplex(DD)Lorg/apache/commons/math/complex/Complex;:872 - InsertUnaryOp Negation of real
+test2,Strong Mutation 817: org.apache.commons.math.complex.Complex.createComplex(DD)Lorg/apache/commons/math/complex/Complex;:872 - ReplaceVariable imaginary -> real
+test2,Strong Mutation 818: org.apache.commons.math.complex.Complex.createComplex(DD)Lorg/apache/commons/math/complex/Complex;:872 - InsertUnaryOp Negation of imaginary
+test3,Strong Mutation 0: org.apache.commons.math.complex.Complex.abs()D:92 - ReplaceComparisonOperator == -> !=
+test3,Strong Mutation 1: org.apache.commons.math.complex.Complex.abs()D:93 - ReplaceConstant - NaN -> 0.0
+test3,Strong Mutation 2: org.apache.commons.math.complex.Complex.abs()D:93 - ReplaceConstant - NaN -> 1.0
+test3,Strong Mutation 3: org.apache.commons.math.complex.Complex.abs()D:93 - ReplaceConstant - NaN -> -1.0
+test3,Strong Mutation 261: org.apache.commons.math.complex.Complex.equals(Ljava/lang/Object;)Z:248 - ReplaceComparisonOperator != -> ==
+test3,Strong Mutation 263: org.apache.commons.math.complex.Complex.equals(Ljava/lang/Object;)Z:250 - ReplaceComparisonOperator != null -> = null
+test3,Strong Mutation 265: org.apache.commons.math.complex.Complex.equals(Ljava/lang/Object;)Z:255 - ReplaceVariable rhs -> this
+test3,Strong Mutation 266: org.apache.commons.math.complex.Complex.equals(Ljava/lang/Object;)Z:255 - ReplaceVariable rhs -> INF
+test3,Strong Mutation 267: org.apache.commons.math.complex.Complex.equals(Ljava/lang/Object;)Z:255 - ReplaceVariable rhs -> ZERO
+test3,Strong Mutation 268: org.apache.commons.math.complex.Complex.equals(Ljava/lang/Object;)Z:255 - ReplaceVariable rhs -> I
+test3,Strong Mutation 269: org.apache.commons.math.complex.Complex.equals(Ljava/lang/Object;)Z:255 - ReplaceVariable rhs -> NaN
+test3,Strong Mutation 270: org.apache.commons.math.complex.Complex.equals(Ljava/lang/Object;)Z:255 - ReplaceVariable rhs -> ONE
+test3,Strong Mutation 271: org.apache.commons.math.complex.Complex.equals(Ljava/lang/Object;)Z:255 - ReplaceComparisonOperator == -> !=
+test3,Strong Mutation 528: org.apache.commons.math.complex.Complex.cos()Lorg/apache/commons/math/complex/Complex;:507 - ReplaceVariable NaN -> INF
+test3,Strong Mutation 529: org.apache.commons.math.complex.Complex.cos()Lorg/apache/commons/math/complex/Complex;:507 - ReplaceVariable NaN -> ZERO
+test3,Strong Mutation 530: org.apache.commons.math.complex.Complex.cos()Lorg/apache/commons/math/complex/Complex;:507 - ReplaceVariable NaN -> I
+test3,Strong Mutation 531: org.apache.commons.math.complex.Complex.cos()Lorg/apache/commons/math/complex/Complex;:507 - ReplaceVariable NaN -> ONE
+test3,Strong Mutation 298: org.apache.commons.math.complex.Complex.equals(Ljava/lang/Object;)Z:266 - InsertUnaryOp IINC 1 ret
+test3,Strong Mutation 299: org.apache.commons.math.complex.Complex.equals(Ljava/lang/Object;)Z:266 - InsertUnaryOp IINC -1 ret
+test3,Strong Mutation 815: org.apache.commons.math.complex.Complex.createComplex(DD)Lorg/apache/commons/math/complex/Complex;:872 - ReplaceVariable real -> imaginary
+test3,Strong Mutation 816: org.apache.commons.math.complex.Complex.createComplex(DD)Lorg/apache/commons/math/complex/Complex;:872 - InsertUnaryOp Negation of real
+test3,Strong Mutation 817: org.apache.commons.math.complex.Complex.createComplex(DD)Lorg/apache/commons/math/complex/Complex;:872 - ReplaceVariable imaginary -> real
+test3,Strong Mutation 818: org.apache.commons.math.complex.Complex.createComplex(DD)Lorg/apache/commons/math/complex/Complex;:872 - InsertUnaryOp Negation of imaginary
+test3,Strong Mutation 562: org.apache.commons.math.complex.Complex.exp()Lorg/apache/commons/math/complex/Complex;:576 - ReplaceVariable NaN -> INF
+test3,Strong Mutation 563: org.apache.commons.math.complex.Complex.exp()Lorg/apache/commons/math/complex/Complex;:576 - ReplaceVariable NaN -> ZERO
+test3,Strong Mutation 564: org.apache.commons.math.complex.Complex.exp()Lorg/apache/commons/math/complex/Complex;:576 - ReplaceVariable NaN -> I
+test3,Strong Mutation 565: org.apache.commons.math.complex.Complex.exp()Lorg/apache/commons/math/complex/Complex;:576 - ReplaceVariable NaN -> ONE
+test3,Strong Mutation 580: org.apache.commons.math.complex.Complex.log()Lorg/apache/commons/math/complex/Complex;:614 - ReplaceVariable NaN -> INF
+test3,Strong Mutation 581: org.apache.commons.math.complex.Complex.log()Lorg/apache/commons/math/complex/Complex;:614 - ReplaceVariable NaN -> ZERO
+test3,Strong Mutation 582: org.apache.commons.math.complex.Complex.log()Lorg/apache/commons/math/complex/Complex;:614 - ReplaceVariable NaN -> I
+test3,Strong Mutation 583: org.apache.commons.math.complex.Complex.log()Lorg/apache/commons/math/complex/Complex;:614 - ReplaceVariable NaN -> ONE
+test3,Strong Mutation 330: org.apache.commons.math.complex.Complex.getImaginary()D:290 - InsertUnaryOp Negation
+test3,Strong Mutation 331: org.apache.commons.math.complex.Complex.getReal()D:299 - InsertUnaryOp Negation
+test3,Strong Mutation 333: org.apache.commons.math.complex.Complex.isNaN()Z:310 - ReplaceComparisonOperator != -> ==
+test3,Strong Mutation 335: org.apache.commons.math.complex.Complex.isNaN()Z:310 - ReplaceComparisonOperator == -> !=
+test3,Strong Mutation 336: org.apache.commons.math.complex.Complex.isNaN()Z:310 - ReplaceConstant - 1 -> 0
+test3,Strong Mutation 600: org.apache.commons.math.complex.Complex.sin()Lorg/apache/commons/math/complex/Complex;:673 - ReplaceVariable NaN -> INF
+test3,Strong Mutation 344: org.apache.commons.math.complex.Complex.isInfinite()Z:323 - ReplaceConstant - 0 -> 1
+test3,Strong Mutation 601: org.apache.commons.math.complex.Complex.sin()Lorg/apache/commons/math/complex/Complex;:673 - ReplaceVariable NaN -> ZERO
+test3,Strong Mutation 602: org.apache.commons.math.complex.Complex.sin()Lorg/apache/commons/math/complex/Complex;:673 - ReplaceVariable NaN -> I
+test3,Strong Mutation 603: org.apache.commons.math.complex.Complex.sin()Lorg/apache/commons/math/complex/Complex;:673 - ReplaceVariable NaN -> ONE
+test3,Strong Mutation 354: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:356 - ReplaceVariable NaN -> ZERO
+test3,Strong Mutation 355: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:356 - ReplaceVariable NaN -> I
+test3,Strong Mutation 356: org.apache.commons.math.complex.Complex.multiply(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:356 - ReplaceVariable NaN -> ONE
+test3,Strong Mutation 100: org.apache.commons.math.complex.Complex.conjugate()Lorg/apache/commons/math/complex/Complex;:153 - ReplaceVariable NaN -> INF
+test3,Strong Mutation 101: org.apache.commons.math.complex.Complex.conjugate()Lorg/apache/commons/math/complex/Complex;:153 - ReplaceVariable NaN -> ZERO
+test3,Strong Mutation 102: org.apache.commons.math.complex.Complex.conjugate()Lorg/apache/commons/math/complex/Complex;:153 - ReplaceVariable NaN -> I
+test3,Strong Mutation 103: org.apache.commons.math.complex.Complex.conjugate()Lorg/apache/commons/math/complex/Complex;:153 - ReplaceVariable NaN -> ONE
+test3,Strong Mutation 617: org.apache.commons.math.complex.Complex.sinh()Lorg/apache/commons/math/complex/Complex;:707 - ReplaceVariable NaN -> INF
+test3,Strong Mutation 618: org.apache.commons.math.complex.Complex.sinh()Lorg/apache/commons/math/complex/Complex;:707 - ReplaceVariable NaN -> ZERO
+test3,Strong Mutation 619: org.apache.commons.math.complex.Complex.sinh()Lorg/apache/commons/math/complex/Complex;:707 - ReplaceVariable NaN -> I
+test3,Strong Mutation 620: org.apache.commons.math.complex.Complex.sinh()Lorg/apache/commons/math/complex/Complex;:707 - ReplaceVariable NaN -> ONE
+test3,Strong Mutation 114: org.apache.commons.math.complex.Complex.divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:195 - ReplaceVariable NaN -> INF
+test3,Strong Mutation 115: org.apache.commons.math.complex.Complex.divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:195 - ReplaceVariable NaN -> ZERO
+test3,Strong Mutation 116: org.apache.commons.math.complex.Complex.divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:195 - ReplaceVariable NaN -> I
+test3,Strong Mutation 117: org.apache.commons.math.complex.Complex.divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;:195 - ReplaceVariable NaN -> ONE
+test3,Strong Mutation 438: org.apache.commons.math.complex.Complex.negate()Lorg/apache/commons/math/complex/Complex;:377 - ReplaceVariable NaN -> INF
+test3,Strong Mutation 439: org.apache.commons.math.complex.Complex.negate()Lorg/apache/commons/math/complex/Complex;:377 - ReplaceVariable NaN -> ZERO
+test3,Strong Mutation 440: org.apache.commons.math.complex.Complex.negate()Lorg/apache/commons/math/complex/Complex;:377 - ReplaceVariable NaN -> I
+test3,Strong Mutation 441: org.apache.commons.math.complex.Complex.negate()Lorg/apache/commons/math/complex/Complex;:377 - ReplaceVariable NaN -> ONE
+test3,Strong Mutation 714: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:815 - ReplaceVariable NaN -> INF
+test3,Strong Mutation 715: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:815 - ReplaceVariable NaN -> ZERO
+test3,Strong Mutation 716: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:815 - ReplaceVariable NaN -> I
+test3,Strong Mutation 717: org.apache.commons.math.complex.Complex.tan()Lorg/apache/commons/math/complex/Complex;:815 - ReplaceVariable NaN -> ONE
+test3,Strong Mutation 479: org.apache.commons.math.complex.Complex.acos()Lorg/apache/commons/math/complex/Complex;:426 - ReplaceVariable NaN -> INF
+test3,Strong Mutation 480: org.apache.commons.math.complex.Complex.acos()Lorg/apache/commons/math/complex/Complex;:426 - ReplaceVariable NaN -> ZERO
+test3,Strong Mutation 481: org.apache.commons.math.complex.Complex.acos()Lorg/apache/commons/math/complex/Complex;:426 - ReplaceVariable NaN -> I
+test3,Strong Mutation 482: org.apache.commons.math.complex.Complex.acos()Lorg/apache/commons/math/complex/Complex;:426 - ReplaceVariable NaN -> ONE
+test3,Strong Mutation 492: org.apache.commons.math.complex.Complex.asin()Lorg/apache/commons/math/complex/Complex;:449 - ReplaceVariable NaN -> INF
+test3,Strong Mutation 493: org.apache.commons.math.complex.Complex.asin()Lorg/apache/commons/math/complex/Complex;:449 - ReplaceVariable NaN -> ZERO
+test3,Strong Mutation 494: org.apache.commons.math.complex.Complex.asin()Lorg/apache/commons/math/complex/Complex;:449 - ReplaceVariable NaN -> I
+test3,Strong Mutation 495: org.apache.commons.math.complex.Complex.asin()Lorg/apache/commons/math/complex/Complex;:449 - ReplaceVariable NaN -> ONE
